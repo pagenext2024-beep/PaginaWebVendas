@@ -42,7 +42,7 @@ export const SERVICES: ServiceCard[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    name: 'SaaS Quantum',
+    name: 'FLASH LavaCar',
     description: 'Plataforma de IA com interface futurista e conversão de 14%.',
     image: 'https://i.ibb.co/JjGRRnCf/lavacar.png',
     tag: '',
@@ -50,9 +50,9 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    name: 'EcoEnergy',
+    name: 'Fruits',
     description: 'Landing page para painéis solares focada em leads qualificados.',
-    image: 'https://picsum.photos/seed/energy/800/600',
+    image: 'https://i.ibb.co/d0qJsRcN/fruta.png',
     tag: '',
     link: '/projeto/ecoenergy'
   },

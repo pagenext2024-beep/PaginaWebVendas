@@ -387,7 +387,7 @@ const Portfolio = () => {
           <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">Resultados exponenciais entregues para líderes de mercado em diversos setores.</p>
         </div>
 
-        <div className="relative group max-w-5xl mx-auto">
+        <div className="relative group max-w-10xl mx-auto">
           <div className="flex overflow-hidden rounded-[3rem] shadow-2xl shadow-black/60 border border-white/5">
             <div 
               className="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] w-full"

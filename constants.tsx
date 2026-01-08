@@ -44,7 +44,7 @@ export const PROJECTS: Project[] = [
     id: '1',
     name: 'SaaS Quantum',
     description: 'Plataforma de IA com interface futurista e conversão de 14%.',
-    image: 'https://picsum.photos/seed/quantum/800/600',
+    image: 'https://i.ibb.co/JjGRRnCf/lavacar.png',
     tag: '',
     link: '/projeto/quantum'
   },

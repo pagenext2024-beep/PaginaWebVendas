@@ -1,4 +1,4 @@
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   ArrowRight, 
@@ -627,3 +627,4 @@ export default function App() {
     </div>
   );
 }
+

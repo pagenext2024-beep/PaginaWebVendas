@@ -66,9 +66,9 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '4',
-    name: 'Nova Bank',
+    name: 'Cont100',
     description: 'Fintech moderna com foco em experiência de usuário mobile-first.',
-    image: 'https://picsum.photos/seed/bank/800/600',
+    image: 'https://i.ibb.co/QF5JRdvx/Captura-de-tela-2026-01-08-000618.png',
     tag: '',
     link: '/projeto/novabank'
   }

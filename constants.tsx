@@ -42,7 +42,7 @@ export const SERVICES: ServiceCard[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    name: 'FLASH LavaCar',
+    name: 'Flash LavaCar',
     description: 'Plataforma de IA com interface futurista e conversão de 14%.',
     image: 'https://i.ibb.co/JjGRRnCf/lavacar.png',
     tag: '',
@@ -58,9 +58,9 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '3',
-    name: 'FitFlow Studio',
+    name: 'TTW Transportes',
     description: 'Site One Page para estúdio de Yoga com agendamento direto.',
-    image: 'https://picsum.photos/seed/yoga/800/600',
+    image: 'https://i.ibb.co/C34h7sfK/transpor.png',
     tag: '',
     link: '/projeto/fitflow'
   },

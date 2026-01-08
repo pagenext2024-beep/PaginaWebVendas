@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
     id: '3',
     name: 'TTW Transportes',
     description: 'Site One Page para estúdio de Yoga com agendamento direto.',
-    image: 'https://i.ibb.co/C34h7sfK/transpor.png',
+    image: 'https://i.ibb.co/cRnG3qF/transporte-ok2.png',
     tag: '',
     link: '/projeto/fitflow'
   },

@@ -305,7 +305,7 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => (
         <div className="relative animate-float">
           <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-full"></div>
           <img
-            src="https://picsum.photos/seed/interface/1200/900"
+            src="https://i.ibb.co/S4jk6967/image.png"
             alt="Futuristic Interface"
             className="rounded-3xl border border-white/10 shadow-2xl relative z-10 transform skew-x-1"
           />

@@ -1,10 +1,10 @@
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import React, { useState, useEffect, useRef } from 'react';
-import { 
-  ArrowRight, 
-  Menu, 
-  X, 
-  ChevronRight, 
+import {
+  ArrowRight,
+  Menu,
+  X,
+  ChevronRight,
   ChevronLeft,
   Instagram,
   Linkedin,
@@ -142,7 +142,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                   </div>
                 </div>
 
-                <button 
+                <button
                   disabled={status === 'loading'}
                   className="group relative w-full overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 disabled:from-slate-800 disabled:to-slate-900 text-white py-5 rounded-2xl font-black text-lg shadow-2xl shadow-blue-500/20 transition-all hover:scale-[1.01] active:scale-[0.98] flex items-center justify-center gap-3 mt-6"
                 >
@@ -155,7 +155,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                     </>
                   )}
                 </button>
-                
+
                 {status === 'error' && (
                   <div className="flex items-center justify-center gap-2 text-red-400 text-sm font-bold bg-red-400/10 p-4 rounded-xl border border-red-400/20 animate-in slide-in-from-top-2">
                     <X size={16} /> Ocorreu uma falha na conexão. Tente novamente em instantes.
@@ -204,7 +204,7 @@ const Navbar = ({ onOpenContact }: { onOpenContact: () => void }) => {
           <a href="#servicos" className="hover:text-blue-400 transition-colors">Serviços</a>
           <a href="#portfolio" className="hover:text-blue-400 transition-colors">Portfolio</a>
           <a href="#diferenciais" className="hover:text-blue-400 transition-colors">Diferenciais</a>
-          <button 
+          <button
             onClick={onOpenContact}
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full transition-all hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/20 font-bold"
           >
@@ -233,9 +233,9 @@ const Navbar = ({ onOpenContact }: { onOpenContact: () => void }) => {
 };
 
 const WhatsAppFloating = () => (
-  <a 
-    href="https://wa.me/yournumber" 
-    target="_blank" 
+  <a
+    href="https://wa.me/55149986860931?text=Olá!%20Gostaria%20de%20informações%20sobre%20criação%20de%20páginas%20web%20e%20valores."
+    target="_blank"
     rel="noopener noreferrer"
     className="fixed bottom-6 right-6 z-[60] group"
   >
@@ -267,33 +267,33 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => (
           </span>
           Futuro da Criação de Paginas WEB
         </div>
-        
+
         <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tighter leading-[1.1]">
           Leve sua presença digital para o <br />
           <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-600 to-purple-500 italic pr-6 pb-2">próximo nível</span>
         </h1>
-        
+
         <p className="text-xl text-slate-400 max-w-xl leading-relaxed">
-          Criamos páginas web para o seu negócio, focadas em transformar visitantes em clientes.
+          Criamos páginas web para empresas, negócios e projetos criativos, focadas em transformar visitantes em clientes.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-4">
-          <button 
+          <button
             onClick={onOpenContact}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-all hover:scale-105 shadow-xl shadow-blue-500/30"
           >
             Criar minha Landing Page <ArrowRight size={20} />
           </button>
-          <button 
-           
+          <button
+
           >
-         
+
           </button>
         </div>
 
         <div className="flex items-center gap-4 text-sm text-slate-500 font-medium pt-4">
           <div className="flex -space-x-3">
-            {[1,2,3].map(i => (
+            {[1, 2, 3].map(i => (
               <img key={i} className="w-10 h-10 rounded-full border-2 border-[#030712]" src={`https://i.pravatar.cc/100?u=${i}`} alt="user" />
             ))}
           </div>
@@ -304,9 +304,9 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => (
       <div className="relative hidden md:block">
         <div className="relative animate-float">
           <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-full"></div>
-          <img 
-            src="https://picsum.photos/seed/interface/1200/900" 
-            alt="Futuristic Interface" 
+          <img
+            src="https://picsum.photos/seed/interface/1200/900"
+            alt="Futuristic Interface"
             className="rounded-3xl border border-white/10 shadow-2xl relative z-10 transform skew-x-1"
           />
           <div className="absolute -top-10 -right-10 glass p-6 rounded-2xl border border-white/10 z-20 animate-pulse">
@@ -356,7 +356,7 @@ const Services = () => (
               {s.description}
             </p>
             <div className="mt-8 flex items-center gap-2 text-blue-500 font-bold text-sm opacity-0 group-hover:opacity-100 transition-all translate-x-[-10px] group-hover:translate-x-0">
-               <ArrowRight size={16} />
+              <ArrowRight size={16} />
             </div>
           </div>
         ))}
@@ -389,23 +389,35 @@ const Portfolio = () => {
 
         <div className="relative group max-w-10xl mx-auto">
           <div className="flex overflow-hidden rounded-[3rem] shadow-2xl shadow-black/60 border border-white/5">
-            <div 
+            <div
               className="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] w-full"
               style={{ transform: `translateX(-${active * 100}%)` }}
             >
               {PROJECTS.map((project) => (
                 <div key={project.id} className="min-w-full relative h-[600px]">
-                  <img src={project.image} alt={project.name} className="w-full h-full object-cover opacity-50" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#030712] via-[#030712]/60 to-transparent p-10 md:p-20 flex flex-col justify-end">
+                  <img src={project.image} alt={project.name} className="w-full h-full object-cover opacity-1000" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent p-10 flex flex-col justify-end">
                     <span className="text-blue-500 font-black text-xs tracking-[0.3em] uppercase mb-4">{project.tag}</span>
-                    <h4 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter italic">{project.name}</h4>
+                    <h4 className="text-4xl md:text-20xl font-black mb-1 tracking-tighter italic">{project.name}</h4>
                     <p className="text-slate-300 max-w-xl text-lg mb-10 font-medium leading-relaxed">{project.description}</p>
-                    <button 
+                    <button
                       onClick={() => handleProjectLink(project.link)}
-                      className="w-fit bg-white text-black px-10 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-blue-600 hover:text-white transition-all active:scale-95 shadow-xl shadow-black/20"
+                                                      className="
+                                    absolute bottom-10 left-10
+                                    bg-white text-black
+                                    px-5 py-2
+                                    rounded-xl
+                                    font-bold text-xs
+                                    uppercase tracking-wider
+                                    hover:bg-blue-600 hover:text-white
+                                    transition-all
+                                    active:scale-95
+                                    shadow-lg shadow-black/30
+                                  "
                     >
-                      Ver Detalhes do Projeto
+                      Ver detalhes
                     </button>
+
                   </div>
                 </div>
               ))}
@@ -422,8 +434,8 @@ const Portfolio = () => {
 
         <div className="flex justify-center mt-12 gap-3">
           {PROJECTS.map((_, i) => (
-            <button 
-              key={i} 
+            <button
+              key={i}
               onClick={() => setActive(i)}
               className={`h-2 rounded-full transition-all duration-300 ${active === i ? 'bg-blue-500 w-12' : 'bg-white/10 w-4 hover:bg-white/20'}`}
             />
@@ -461,7 +473,7 @@ const Differentiators = () => (
         <div className="space-y-10 relative z-10">
           <h4 className="text-2xl font-black italic tracking-tighter">Arquitetura de Performance</h4>
           <p className="text-slate-400 font-medium">Utilizamos stack de última geração para garantir que sua landing page seja o motor de crescimento mais eficiente da sua empresa.</p>
-          
+
           <div className="grid grid-cols-2 gap-4">
             {TECH_STACK.map((tech, i) => (
               <div key={i} className="flex items-center gap-3 glass p-5 rounded-2xl border border-white/5 hover:border-blue-500/40 transition-all hover:bg-white/5 group shadow-sm">
@@ -498,7 +510,7 @@ const Testimonials = () => (
         {TESTIMONIALS.map((t, i) => (
           <div key={i} className="glass p-10 rounded-[2.5rem] relative border border-white/5 shadow-xl">
             <div className="flex gap-1 mb-8">
-              {[1,2,3,4,5].map(star => <span key={star} className="text-blue-500 text-sm">★</span>)}
+              {[1, 2, 3, 4, 5].map(star => <span key={star} className="text-blue-500 text-sm">★</span>)}
             </div>
             <p className="text-slate-300 mb-10 italic leading-relaxed font-medium">"{t.content}"</p>
             <div className="flex items-center gap-4 border-t border-white/5 pt-8">
@@ -527,17 +539,17 @@ const CallToAction = ({ onOpenContact }: { onOpenContact: () => void }) => (
         Vamos juntos tirar esta ideia do papel e transformá-la em algo grandioso.
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
-        <button 
+        <button
           onClick={onOpenContact}
           className="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white px-12 py-6 rounded-[2rem] font-black text-xl shadow-2xl shadow-blue-500/40 transition-all hover:scale-105 active:scale-95"
         >
           Consultoria
         </button>
-        <button 
+        <button
           onClick={onOpenContact}
-        
+
         >
-         
+
         </button>
       </div>
     </div>
@@ -558,7 +570,7 @@ const Footer = () => (
             </span>
           </div>
           <p className="text-slate-500 text-sm leading-relaxed font-medium max-w-xs">
-            A agência definitiva para empresários que exigem nada menos que a perfeição técnica e visual no digital.
+            Transformamos ideias em experiências digitais que funcionam.
           </p>
           <div className="flex gap-4">
             {[Instagram, Linkedin, Github, Mail].map((Icon, i) => (

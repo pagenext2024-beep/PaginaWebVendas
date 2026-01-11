@@ -19,7 +19,7 @@ import { ServiceCard, Project, Testimonial, TechItem } from './types';
 export const SERVICES: ServiceCard[] = [
   {
     title: 'Landing Pages de Alta Conversão',
-    description: 'Páginas focadas em transformar visitantes em leads e clientes com copywriting persuasivo.',
+    description: 'Páginas focadas em transformar visitantes em clientes.',
     icon: <Target className="w-8 h-8 text-blue-500" />
   },
   {
@@ -29,12 +29,12 @@ export const SERVICES: ServiceCard[] = [
   },
   {
     title: 'Páginas para Anúncios',
-    description: 'Otimização máxima para tráfego pago (Meta Ads, Google Ads) garantindo o melhor ROI.',
+    description: 'A página abriga o seu conteúdo, da sua maneira e preferência.Totalmente customizável.',
     icon: <Zap className="w-8 h-8 text-green-400" />
   },
   {
     title: 'Sites Institucionais',
-    description: 'Presença digital sólida para empresas que buscam credibilidade e autoridade no mercado.',
+    description: 'Presença digital sólida para empresas, negócios e criadores de conteúdo que buscam credibilidade e autoridade no mercado.',
     icon: <Building2 className="w-8 h-8 text-blue-400" />
   }
 ];
@@ -43,34 +43,34 @@ export const PROJECTS: Project[] = [
   {
     id: '1',
     name: 'Flash LavaCar',
-    description: 'Plataforma de IA com interface futurista e conversão de 14%.',
+    description: 'Seu carro impecavel no menor tempo.',
     image: 'https://i.ibb.co/JjGRRnCf/lavacar.png',
     tag: '',
-    link: '/projeto/quantum'
+    link: 'https://i.ibb.co/JjGRRnCf/lavacar.png'
   },
   {
     id: '2',
     name: 'Fruits',
-    description: 'Landing page para painéis solares focada em leads qualificados.',
+    description: 'Mercearia com produtos naturais e selecionados.',
     image: 'https://i.ibb.co/d0qJsRcN/fruta.png',
     tag: '',
-    link: '/projeto/ecoenergy'
+    link: 'https://i.ibb.co/d0qJsRcN/fruta.png'
   },
   {
     id: '3',
     name: 'TTW Transportes',
-    description: 'Site One Page para estúdio de Yoga com agendamento direto.',
+    description: 'Soluções completas para a sua Logistica.',
     image: 'https://i.ibb.co/cRnG3qF/transporte-ok2.png',
     tag: '',
-    link: '/projeto/fitflow'
+    link: 'https://i.ibb.co/cRnG3qF/transporte-ok2.png'
   },
   {
     id: '4',
     name: 'Cont100',
-    description: 'Fintech moderna com foco em experiência de usuário mobile-first.',
+    description: 'Escritorio de Contabilidade.',
     image: 'https://i.ibb.co/FkfpNh0H/cont.png',
     tag: '',
-    link: '/projeto/novabank'
+    link: 'https://i.ibb.co/FkfpNh0H/cont.png'
   }
 ];
 
@@ -107,20 +107,20 @@ export const TECH_STACK: TechItem[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Ricardo Silva',
-    role: 'CEO na TechFuture',
-    content: 'A PageNext transformou nossa presença digital. Nossa taxa de conversão subiu 40% em apenas um mês.',
-    avatar: 'https://i.pravatar.cc/150?u=ricardo'
+    role: 'Sócio',
+    content: 'Nossa Parceria com a PageNext teve rendimento logo no primeiro Mês, conseguimos varios novos clientes',
+    avatar: 'https://i.ibb.co/Y7CFpsnt/Chat-GPT-Image-11-de-jan-de-2026-15-49-00.jpg'
   },
   {
     name: 'Mariana Costa',
-    role: 'Marketing Manager na Soluções Criativas',
+    role: 'marketing',
     content: 'O design é simplesmente incrível. Recebemos elogios constantes dos nossos clientes sobre a fluidez do site.',
-    avatar: 'https://i.pravatar.cc/150?u=mariana'
+    avatar: 'https://i.ibb.co/zhMX36qB/Chat-GPT-Image-11-de-jan-de-2026-15-58-46.png'
   },
   {
-    name: 'André Lopes',
-    role: 'Fundador da Alpha Fitness',
-    content: 'Agilidade e qualidade impecáveis. O processo de criação foi rápido e o resultado superou as expectativas.',
+    name: 'Andra Lopes',
+    role: 'design',
+    content: 'Agilidade e qualidade impecáveis. O processo de criação foi rápido e o resultado superou as nossas expectativas. Aprovado!!1',
     avatar: 'https://i.pravatar.cc/150?u=andre'
   }
 ];

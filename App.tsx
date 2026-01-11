@@ -234,7 +234,7 @@ const Navbar = ({ onOpenContact }: { onOpenContact: () => void }) => {
 
 const WhatsAppFloating = () => (
   <a
-    href="https://wa.me/55149986860931?text=Olá!%20Gostaria%20de%20informações%20sobre%20criação%20de%20páginas%20web%20e%20valores."
+    href="https://wa.me/5514998680931?text=Olá!%20Gostaria%20de%20informações%20sobre%20criação%20de%20páginas%20web%20e%20valores."
     target="_blank"
     rel="noopener noreferrer"
     className="fixed bottom-6 right-6 z-[60] group"

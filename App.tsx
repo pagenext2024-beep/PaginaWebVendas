@@ -297,7 +297,7 @@ const Hero = ({ onOpenContact }: { onOpenContact: () => void }) => (
               <img key={i} className="w-10 h-10 rounded-full border-2 border-[#030712]" src={`https://i.pravatar.cc/100?u=${i}`} alt="user" />
             ))}
           </div>
-          <p>+500 negócios impulsionados pela PageNext</p>
+          <p>+100 negócios impulsionados pela PageNext</p>
         </div>
       </div>
 
@@ -536,7 +536,7 @@ const CallToAction = ({ onOpenContact }: { onOpenContact: () => void }) => (
         <span className="text-blue-500 underline decoration-blue-500/20 underline-offset-[12px]">próximo Passo?</span>
       </h2>
       <p className="text-xl md:text-2xl text-slate-400 mb-16 max-w-2xl mx-auto leading-relaxed font-medium">
-        Vamos juntos tirar esta ideia do papel e transformá-la em algo grandioso.
+        Vamos juntos dar vida a essa ideia e transformá-la em algo verdadeiramente grandioso.
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
         <button

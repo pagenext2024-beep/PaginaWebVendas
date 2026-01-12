@@ -118,7 +118,7 @@ export const TESTIMONIALS: Testimonial[] = [
     avatar: 'https://i.ibb.co/zhMX36qB/Chat-GPT-Image-11-de-jan-de-2026-15-58-46.png'
   },
   {
-    name: 'Andra Lopes',
+    name: 'Andrea Lopes',
     role: 'design',
     content: 'Agilidade e qualidade impecáveis. O processo de criação foi rápido e o resultado superou as nossas expectativas. Aprovado!!1',
     avatar: 'https://i.pravatar.cc/150?u=andre'

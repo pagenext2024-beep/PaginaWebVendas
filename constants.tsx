@@ -44,17 +44,17 @@ export const PROJECTS: Project[] = [
     id: '1',
     name: 'Flash LavaCar',
     description: 'Seu carro impecavel no menor tempo.',
-    image: 'https://i.ibb.co/JjGRRnCf/lavacar.png',
+    image: 'https://i.ibb.co/ZpKCj2Gh/Captura-de-tela-2026-01-12-201106d.png',
     tag: '',
-    link: 'https://i.ibb.co/JjGRRnCf/lavacar.png'
+    link: 'https://lv-carros.vercel.app/'
   },
   {
     id: '2',
-    name: 'Fruits',
+    name: 'Natus',
     description: 'Mercearia com produtos naturais e selecionados.',
-    image: 'https://i.ibb.co/d0qJsRcN/fruta.png',
+    image: 'https://i.ibb.co/xSvcqf5D/Captura-de-tela-2026-01-12-202849dwdwd.png',
     tag: '',
-    link: 'https://i.ibb.co/d0qJsRcN/fruta.png'
+    link: 'https://mercearia-wheat.vercel.app/'
   },
   {
     id: '3',
@@ -62,15 +62,15 @@ export const PROJECTS: Project[] = [
     description: 'Soluções completas para a sua Logistica.',
     image: 'https://i.ibb.co/cRnG3qF/transporte-ok2.png',
     tag: '',
-    link: 'https://i.ibb.co/cRnG3qF/transporte-ok2.png'
+    link: 'https://carga-transp.vercel.app/'
   },
   {
     id: '4',
-    name: 'Cont100',
+    name: 'FluxoDigital',
     description: 'Escritorio de Contabilidade.',
-    image: 'https://i.ibb.co/FkfpNh0H/cont.png',
+    image: 'https://i.ibb.co/YBDgk4MY/dwdwdwd.png',
     tag: '',
-    link: 'https://i.ibb.co/FkfpNh0H/cont.png'
+    link: 'https://contabilidade-gray.vercel.app/'
   }
 ];
 

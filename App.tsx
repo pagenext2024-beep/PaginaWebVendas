@@ -1,4 +1,5 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react";
 import React, { useState, useEffect, useRef } from 'react';
 import {
   ArrowRight,
@@ -636,6 +637,8 @@ export default function App() {
       <Footer />
       <WhatsAppFloating />
       <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }

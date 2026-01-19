@@ -66,9 +66,9 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '4',
-    name: 'FluxoDigital',
-    description: 'Escritorio de Contabilidade.',
-    image: 'https://i.ibb.co/YBDgk4MY/dwdwdwd.png',
+    name: 'AURA',
+    description: 'Experiências Digitais',
+    image: 'https://i.ibb.co/JjPcKXpp/Captura-de-tela-2026-01-19-203931aaaa.png',
     tag: '',
     link: 'https://contabilidade-gray.vercel.app/'
   }
